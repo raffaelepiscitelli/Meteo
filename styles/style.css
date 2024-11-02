@@ -1,0 +1,57 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#weather-container {
+    background-image: linear-gradient(rgb(70, 225, 180), rgb(68, 70, 107));
+    padding: 0 3rem;
+}
+
+#search-bar-input {
+    border: 0;
+    height: 3rem;
+    width: 18rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    outline: none;
+}
+
+#search-btn {
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+}
+
+.weather-icon {
+    font-size: 5rem;
+    margin-top: 4rem;
+}
+
+#temperature-container {
+    margin-top: 2rem;
+    color: white;
+    font-size: 4rem;
+}
+
+#location-container {
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+#footer-container {
+    color: white;
+    padding-bottom: 2rem;
+}
+
+#humidity-container {
+    margin-right: 4rem;
+}
+
+#humidity-icon,
+#wind-icon  {
+    font-size: 2.5rem;
+}
